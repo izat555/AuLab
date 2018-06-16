@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AU.kg</string>
+
+    <string name="all_vacancies_in_kg">Все вакансии Кыргызстана</string>
+    <string name="version">Версия:</string>
+    <string name="day_vacancies">Вакансии за сутки</string>
+    <string name="viewed_vacancies">Подходящие</string>
+    <string name="data_received">Data received</string>
+    <string name="no_data">No data</string>
+    <string name="profession">Profession</string>
+    <string name="date">Date</string>
+    <string name="header">Header</string>
+    <string name="salary">Salary</string>
+    <string name="description">Description</string>
+    <string name="my_log">MY_LOG</string>
+    <string name="menu_item">Item</string>
+    <string name="search">Search</string>
+    <string name="negotiation">Договорная</string>
+    <string name="favorite_list_empty">Список избранных пуст</string>
+    <string name="vacancies">vacancies</string>
+    <string name="add_to_fav">Добавленое в Избранное</string>
+    <string name="del_form_fav">Удалено из Избранное</string>
+    <string name="position">position</string>
+    <string name="title_vacancies">Вакансии</string>
+    <string name="previous">Предыдущее</string>
+    <string name="next">Следующее</string>
+    <string name="call">Позвонить</string>
+    <string name="favorites">Избранные вакансии</string>
+    <string name="prof_hint">Чтобы получать подходящие вакансии, необходимо ввести профессию</string>
+    <string name="prof_dialog_hint">Сохраните профессию, чтобы получать подходящие специально для вас вакансии</string>
+    <string name="add_prof">Добавить профессию</string>
+    <string name="dialog_search_hint">Поиск</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="suitable">suitable</string>
+
+    <string-array name="drawer_item_titles">
+        <item>Поиск</item>
+        <item>Избранные вакансии</item>
+        <item>Выход</item>
+    </string-array>
+</resources>

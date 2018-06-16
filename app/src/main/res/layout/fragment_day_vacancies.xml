@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipy_refresh_layout"
+        app:srl_direction="bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_day_vacancies"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+        <com.victor.loading.rotate.RotateLoading
+            android:id="@+id/progress_bar"
+            app:loading_width="@dimen/three_dp"
+            app:loading_color="@color/colorToolbar"
+            app:loading_speed="15"
+            android:layout_width="@dimen/forty_five_dp"
+            android:layout_height="@dimen/forty_five_dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>
+
