@@ -22,6 +22,8 @@ public class SearchActivity extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
+
+
         finish();
         return super.onSupportNavigateUp();
     }
